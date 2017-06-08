@@ -8,7 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webix-hub/jet-core.git"
+    "url": "git+https://github.com/skyer/jet-core.git"
+  },
+  "dependencies": {
+    "webix-routie": "~0.3.3",
+    "node-polyglot": "~0.4.3"
   },
   "keywords": [
     "webix",

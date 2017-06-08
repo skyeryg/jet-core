@@ -1,5 +1,5 @@
 define([
-	"libs/polyglot/build/polyglot"
+	"node-polyglot"
 ], function(Polyglot){
 
 	var defaultlang = "en";

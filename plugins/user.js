@@ -1,7 +1,7 @@
 define([
 	"models/user",
-	"libs/routie/dist/routie"
-], function(users){
+	"webix-routie"
+], function(users, routie){
 
 	var config = {
 		login		:"#!/login",

@@ -1,6 +1,6 @@
 define([
-	"libs/routie/lib/routie"
-],function(){
+	"webix-routie"
+],function(routie){
 
 	function show(path, config){
 		if (config == -1)
