@@ -475,6 +475,6 @@ define([
 		app.show(app.config.start);
 	}
 
-	requirejs.onError = invalid_url;
+	// requirejs.onError = invalid_url;
 	return app;
 });
