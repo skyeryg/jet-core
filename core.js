@@ -242,7 +242,7 @@ define([
                     webix.ui.resize();
                 }
             };
-            import(["views/" + url]).then(function (ui) {
+            import("views/" + url).then(function (ui) {
                 if (ui.then)
                     ui.then(next_step);
                 else
