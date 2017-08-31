@@ -240,6 +240,7 @@ define([
                 } else {
                     webix.ui.$freeze = false;
                     webix.ui.resize();
+                    layout._ui.adjust();
                 }
             };
             import("views/" + url).then(function (ui) {
